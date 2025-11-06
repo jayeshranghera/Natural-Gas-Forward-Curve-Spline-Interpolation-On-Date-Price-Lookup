@@ -1,5 +1,9 @@
 # Natural Gas Forward Curve — Spline Interpolation & On-Date Price Lookup
 
+This project is part of the **JPMorgan Chase & Co. Virtual Job Simulation (Forage Platform)**.  
+All code and analysis are written by me based on the tasks provided in the simulation.
+
+
 ## Overview
 This notebook fits a smooth forward curve for Natural Gas prices using `UnivariateSpline` and exposes a callable to retrieve price for any given date. It demonstrates curve fitting, date handling, and quick visualization.
 
