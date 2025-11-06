@@ -12,11 +12,6 @@ This notebook fits a smooth forward curve for Natural Gas prices using `Univaria
 - On-date price lookup function, e.g. `get_price('2025-03-31')`
 - Basic plots to visualize the fitted curve vs. historical points
 
-## How to Run
-1. `pip install -r requirements.txt`
-2. Place `Nat_Gas.csv` in the working directory (or update the path in the notebook).
-3. Run cells top to bottom.
-
 ## Results
 - Smooth curve across given dates
 - Quick lookup for interpolated price on specific dates
@@ -25,7 +20,7 @@ This notebook fits a smooth forward curve for Natural Gas prices using `Univaria
 - Interpolation is reliable between known dates; extrapolation beyond data range is risky.
 - Consider walk-forward backtesting to quantify error before using for decisions.
 
-## Next Steps
+## What can make this better..
 - Add time-split backtesting (MAE/MAPE/RMSE)
 - Parameter tuning for spline smoothing and knots
 - Export a small `get_price.py` utility for reuse
